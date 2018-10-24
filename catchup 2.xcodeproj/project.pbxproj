@@ -12,6 +12,14 @@
 		7AB7FD8C21806244001CDCC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AB7FD8A21806244001CDCC4 /* MainMenu.xib */; };
 		7AB7FD9821806244001CDCC4 /* catchup_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB7FD9721806244001CDCC4 /* catchup_2Tests.swift */; };
 		7AB7FDA321806244001CDCC4 /* catchup_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB7FDA221806244001CDCC4 /* catchup_2UITests.swift */; };
+		7AFE5C482180806F00CBAEFF /* tomato_icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE5C422180806F00CBAEFF /* tomato_icon-512.png */; };
+		7AFE5C492180806F00CBAEFF /* tomato_red-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE5C432180806F00CBAEFF /* tomato_red-512.png */; };
+		7AFE5C4A2180806F00CBAEFF /* tomato_orange-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE5C442180806F00CBAEFF /* tomato_orange-512.png */; };
+		7AFE5C4B2180806F00CBAEFF /* tomato_empty-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE5C452180806F00CBAEFF /* tomato_empty-512.png */; };
+		7AFE5C4C2180806F00CBAEFF /* tomato_flash-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE5C462180806F00CBAEFF /* tomato_flash-512.png */; };
+		7AFE5C4D2180806F00CBAEFF /* tomato_green-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE5C472180806F00CBAEFF /* tomato_green-512.png */; };
+		7AFE5C51218082CA00CBAEFF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE5C50218082CA00CBAEFF /* Credits.rtf */; };
+		7AFE5C552180852B00CBAEFF /* TSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE5C542180852B00CBAEFF /* TSAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		7AB7FD9E21806244001CDCC4 /* catchup 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "catchup 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB7FDA221806244001CDCC4 /* catchup_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catchup_2UITests.swift; sourceTree = "<group>"; };
 		7AB7FDA421806244001CDCC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFE5C422180806F00CBAEFF /* tomato_icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_icon-512.png"; sourceTree = "<group>"; };
+		7AFE5C432180806F00CBAEFF /* tomato_red-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_red-512.png"; sourceTree = "<group>"; };
+		7AFE5C442180806F00CBAEFF /* tomato_orange-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_orange-512.png"; sourceTree = "<group>"; };
+		7AFE5C452180806F00CBAEFF /* tomato_empty-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_empty-512.png"; sourceTree = "<group>"; };
+		7AFE5C462180806F00CBAEFF /* tomato_flash-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_flash-512.png"; sourceTree = "<group>"; };
+		7AFE5C472180806F00CBAEFF /* tomato_green-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tomato_green-512.png"; sourceTree = "<group>"; };
+		7AFE5C50218082CA00CBAEFF /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		7AFE5C542180852B00CBAEFF /* TSAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,14 @@
 		7AB7FD8521806242001CDCC4 /* catchup 2 */ = {
 			isa = PBXGroup;
 			children = (
+				7AFE5C542180852B00CBAEFF /* TSAppDelegate.swift */,
+				7AFE5C50218082CA00CBAEFF /* Credits.rtf */,
+				7AFE5C452180806F00CBAEFF /* tomato_empty-512.png */,
+				7AFE5C462180806F00CBAEFF /* tomato_flash-512.png */,
+				7AFE5C472180806F00CBAEFF /* tomato_green-512.png */,
+				7AFE5C422180806F00CBAEFF /* tomato_icon-512.png */,
+				7AFE5C442180806F00CBAEFF /* tomato_orange-512.png */,
+				7AFE5C432180806F00CBAEFF /* tomato_red-512.png */,
 				7AB7FD8621806242001CDCC4 /* AppDelegate.swift */,
 				7AB7FD8821806244001CDCC4 /* Assets.xcassets */,
 				7AB7FD8A21806244001CDCC4 /* MainMenu.xib */,
@@ -225,8 +249,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFE5C4D2180806F00CBAEFF /* tomato_green-512.png in Resources */,
+				7AFE5C51218082CA00CBAEFF /* Credits.rtf in Resources */,
+				7AFE5C4B2180806F00CBAEFF /* tomato_empty-512.png in Resources */,
+				7AFE5C492180806F00CBAEFF /* tomato_red-512.png in Resources */,
+				7AFE5C4C2180806F00CBAEFF /* tomato_flash-512.png in Resources */,
 				7AB7FD8921806244001CDCC4 /* Assets.xcassets in Resources */,
+				7AFE5C4A2180806F00CBAEFF /* tomato_orange-512.png in Resources */,
 				7AB7FD8C21806244001CDCC4 /* MainMenu.xib in Resources */,
+				7AFE5C482180806F00CBAEFF /* tomato_icon-512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AB7FD8721806242001CDCC4 /* AppDelegate.swift in Sources */,
+				7AFE5C552180852B00CBAEFF /* TSAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
